@@ -42,7 +42,7 @@
   --gh-bordes-1: 2px solid black;
 }
 body {
-  background-image: url(./assets/fondoApp.png);
+  background-image: url(/assets/fondoApp.png);
 }
 
 #app {

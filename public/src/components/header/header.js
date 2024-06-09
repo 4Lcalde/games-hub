@@ -12,7 +12,7 @@ export const headerCreator = (name) => {
 
   const logo = document.createElement('img')
   logo.id = 'logo'
-  logo.src = './assets/poker.png'
+  logo.src = '/assets/poker.png'
   logo.alt = 'Logo'
 
   logo.addEventListener('click', () => {
@@ -52,7 +52,7 @@ export const headerCreator = (name) => {
   divUser.className = 'div-user'
   const imgUser = document.createElement('img')
   imgUser.className = 'img-user'
-  imgUser.src = './assets/user.png'
+  imgUser.src = '/assets/user.png'
   const nameUser = document.createElement('p')
   nameUser.textContent = name
 

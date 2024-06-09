@@ -18,7 +18,7 @@ export const modalCartas = () => {
       .querySelectorAll('.carta')
       .forEach(
         (carta) =>
-          (carta.style.backgroundImage = "url('./assets/cartas/carta.jpeg')")
+          (carta.style.backgroundImage = "url('/assets/cartas/carta.jpeg')")
       )
 
     dialog.close()

@@ -26,6 +26,6 @@ export const reiniciarAhorcado = () => {
 
   p.innerHTML = objetoContador.palabraOculta
 
-  foto.src = `./assets/ahorcado/ahorcado${objetoContador.contador}.png`
+  foto.src = `/assets/ahorcado/ahorcado${objetoContador.contador}.png`
   puntuacion.textContent = `Tu puntuación es: ${objetoContador.puntuacion}`
 }

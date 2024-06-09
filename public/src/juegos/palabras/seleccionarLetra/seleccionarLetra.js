@@ -45,7 +45,7 @@ export const seleccionarLetra = () => {
         }
       } else {
         objetoContador.contador++
-        foto.src = `./assets/ahorcado/ahorcado${objetoContador.contador}.png`
+        foto.src = `/assets/ahorcado/ahorcado${objetoContador.contador}.png`
       }
       console.log(objetoContador.contador)
       input.value = ''

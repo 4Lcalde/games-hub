@@ -6,17 +6,17 @@ import { crearTablero } from '../juegos/tictactoe/crearTablero'
 export const juegos = [
   {
     name: 'ahorcado',
-    img: './assets/juegos/palabras.jpeg',
+    img: '/assets/juegos/palabras.jpeg',
     function: crearPantallaAhorcado
   },
   {
     name: 'parejas',
-    img: './assets/juegos/parejas.jpeg',
+    img: '/assets/juegos/parejas.jpeg',
     function: cartasGenerator
   },
   {
     name: 'TicTacToe',
-    img: './assets/juegos/tictactoe.jpeg',
+    img: '/assets/juegos/tictactoe.jpeg',
     function: crearTablero
   }
 ]
