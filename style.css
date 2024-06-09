@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+:root {
+  /* COLORES */
+  --gh-color-1: #000000;
+  --gh-color-2: #ffffff;
+  --gh-color-3: #00000017;
+
+  /* PADDING */
+  --gh-padding-s: 10px;
+  --gh-padding-m: 20px;
+  --gh-padding-l: 30px;
+  --gh-padding-xl: 50px;
+
+  /* MARGIN */
+  --gh-margin-s: 10px;
+  --gh-margin-m: 20px;
+  --gh-margin-l: 30px;
+  --gh-margin-xl: 50px;
+
+  /* GAP */
+  --gh-gap-s: 10px;
+  --gh-gap-m: 20px;
+  --gh-gap-l: 30px;
+  --gh-gap-xl: 50px;
+
+  /* TITULO */
+  --gh-titulo: 10px;
+  --gh-subtitulo: 20px;
+  --gh-p: 30px;
+  --gh-a-: 50px;
+
+  /* BORDES */
+  --gh-bordes-1: 2px solid black;
+}
+body {
+  background-image: url(./assets/fondoApp.png);
+}
+
+#app {
+  height: 100%;
+}
+
+dialog {
+  height: 30svh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-gap-m);
+  background-color: #ffffffbe;
+  border: var(--gh-bordes-1);
+}

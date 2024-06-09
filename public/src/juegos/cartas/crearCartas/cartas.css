@@ -1,0 +1,28 @@
+.section-cartas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gh-margin-l);
+  justify-content: center;
+  align-items: center;
+  max-width: 877px;
+  margin: auto;
+  padding: var(--gh-padding-xl);
+  background: transparent;
+}
+
+.carta {
+  width: 100px;
+  height: 100px;
+  border: var(--gh-bordes-1);
+  cursor: pointer;
+  background-image: url('./assets/cartas/carta.jpeg');
+  background-size: cover;
+}
+
+.carta:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.puntuacion {
+  text-align: center;
+}

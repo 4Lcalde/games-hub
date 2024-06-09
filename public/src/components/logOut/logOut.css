@@ -1,0 +1,8 @@
+.button-logout {
+  position: absolute;
+  display: none;
+}
+
+.abierto {
+  display: flex;
+}

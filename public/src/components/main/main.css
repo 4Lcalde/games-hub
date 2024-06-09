@@ -1,0 +1,43 @@
+.div-app {
+  text-align: center;
+  padding: var(--gh-padding-m);
+}
+
+.ul-images {
+  display: grid;
+  gap: var(--gh-gap-xl);
+  padding: var(--gh-padding-m);
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.7fr));
+}
+
+.li-images {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-juego {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img-juego:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.cartel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #ffffffbe;
+  bottom: -50px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.img-juego:hover ~ .cartel {
+  bottom: 0;
+}

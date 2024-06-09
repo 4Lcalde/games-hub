@@ -1,0 +1,66 @@
+.foto-ahorcado {
+  width: 300px;
+}
+
+.ahorcado {
+  padding: var(--gh-padding-xl);
+}
+
+.palabra-juego {
+  font-size: 30px;
+}
+
+.form-ahorcado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gh-gap-m);
+}
+
+.oculto {
+  display: none;
+}
+
+.ahorcado-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.puntuacion,
+.titulo-ahorcado {
+  text-align: center;
+}
+
+.info-juego {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gh-gap-m);
+}
+
+#inputText {
+  width: 250px;
+}
+
+#inputText::placeholder {
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .ahorcado {
+    padding: var(--gh-padding-m);
+  }
+
+  .ahorcado-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .div-foto-juego {
+    display: flex;
+    justify-content: center;
+  }
+}
