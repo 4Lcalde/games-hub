@@ -12,7 +12,7 @@ export const headerCreator = (name) => {
 
   const logo = document.createElement('img')
   logo.id = 'logo'
-'https://aj-games-hub.netlify.app/games-hub/assets/poker.png'
+'https://aj-games-hub.netlify.app/assets/poker.png'
 
   logo.alt = 'Logo'
 
