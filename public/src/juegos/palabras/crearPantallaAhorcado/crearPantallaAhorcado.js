@@ -49,7 +49,7 @@ export const crearPantallaAhorcado = () => {
 
   const img = document.createElement('img')
   img.className = 'foto-ahorcado'
-  img.src = `assets/ahorcado/ahorcado5.png`
+  img.src = `/assets/ahorcado/ahorcado${objetoContador.contador}.png`
 
   const puntuacion = document.createElement('h3')
   puntuacion.className = 'puntuacion'
