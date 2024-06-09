@@ -12,7 +12,7 @@ export const headerCreator = (name) => {
 
   const logo = document.createElement('img')
   logo.id = 'logo'
-  logo.src = '  url(/assets/poker.png)'
+  logo.src = 'games-hub/assets/poker.png'
 
   logo.alt = 'Logo'
 
