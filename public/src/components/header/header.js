@@ -12,7 +12,8 @@ export const headerCreator = (name) => {
 
   const logo = document.createElement('img')
   logo.id = 'logo'
-  logo.src = '/assets/poker.png'
+  logo.src = '  url(/assets/poker.png)'
+
   logo.alt = 'Logo'
 
   logo.addEventListener('click', () => {
